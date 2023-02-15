@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/rem.jpg">
+    <title>Reserve</title>
+    <style>
+        header {
+            border-top: 2px white solid;
+            height: 50px;
+            background-color: #12141c;
+            opacity: 0.5;
+        }
+        header ul {
+            list-style: none;
+        }
+        header ul li a {
+            color: white;
+            text-decoration: none;
+            float: right;
+            margin-left: 10px;
+            padding-right: 10px;
+        }
+        .jjj:hover {
+            color: #573c56 ;
+            cursor: pointer;
+        }
+        nav {
+            background-color:#12141c;
+            font-size: xx-large;
+            color: white;
+            height: 50px;
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 10%;
+            padding-top: 10px;
+            text-align: center;
+        }
+        article {
+            height: 160px;
+            width: 300px;
+            margin-top: 5px;
+            margin-left: 10%;
+            padding-top: 20px;
+            text-align: center;
+        }
+        form {
+            width: 500px;
+            margin-left: 290px;
+            margin-top: 50px;
+        }
+        form fieldset legend {
+            text-align: center;
+            font-size: 17px;
+            font-weight: bold;
+        }
+        form input {
+            padding: 6px;
+            border-radius: 5%;
+            width: 200px;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        form label {
+            font-weight: bold;
+            font-size: 16px;
+            width: 150px;
+            float: left;
+            margin-top: 30px;
+        }
+        form a {
+            float: right;
+        }
+        form button {
+            background-color:#12141c;
+            width: 90%;
+            margin: 20px 0 0 9px;
+            color: white;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        form button:hover {
+            background-color:#573c56;
+            color: black;
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="aboutus.html" class="jjj">About Us</a></li>
+            <li><a href="reserve.html" class="jjj">Reservations</a></li>
+            <li><a href="menu.html" class="jjj">Menu</a></li>
+            <li><a href="index.html" class="jjj">Home</a></li>
+        </ul>
+    </header>
+    <nav>
+        Make Online Reservations
+    </nav>
+    <article>
+    <form>
+        <fieldset>
+            <legend>Reservation</legend>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter Name" size="30px" required> <br>
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter Number" size="30px" required> <br>
+            <label>Date</label>
+            <input type="number" placeholder="Enter Date" size="30px" required> <br>
+            <button>Send</button>
+        </fieldset>
+    </form>
+    </article>
+</body>
+</html>
